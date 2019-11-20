@@ -584,16 +584,16 @@ Bank</a></li>
         </div>
 <h1 style="text-align: center;">Billing Information</h1>
     </div>
-
+    <input type="checkbox" id="isEqualBillShip">
     <form action="index.php" method="post">
-      <input type="text" name="first_name" placeholder="First name*" style="margin-top: 5px">
-      <input type="text" name="last_name" placeholder="Last name*" style="margin-top: 5px">
-      <input type="email" name="email" placeholder="Email*" style="margin-top: 5px">
-      <input type="text" name="adress" placeholder="Adress 1*" style="margin-top: 5px">
-      <input type="text" name="adress" placeholder="Adress 2" style="margin-top: 5px">
-      <input type="text" name="city" placeholder="City*" style="margin-top: 5px">
-      <p> <select name="countryList" class="form-control" style="margin-top: 5px">
-        <option><strong>Select country*</strong></option>
+      <input type="text" name="first_name" id="bill_first_name" placeholder="First name*" style="margin-top: 5px">
+      <input type="text" name="last_name" id="bill_last_name" placeholder="Last name*" style="margin-top: 5px">
+      <input type="email" name="email" id="bill_email" placeholder="Email*" style="margin-top: 5px">
+      <input type="text" name="adress1" id="bill_adress1" placeholder="Adress 1*" style="margin-top: 5px">
+      <input type="text" name="adress2" id="bill_adress2" placeholder="Adress 2" style="margin-top: 5px">
+      <input type="text" name="city" id="bill_city" placeholder="City*" style="margin-top: 5px">
+      <p> <select name="countryList" id="bill_country" class="form-control" style="margin-top: 5px">
+        <option style="height: 10px;"><strong>Select country*</strong></option>
         <option value="US">US </option>
         <option value="UK">UK </option>
         <option value="Italy">Italy </option>
@@ -602,8 +602,8 @@ Bank</a></li>
         <option value="France">France </option>
         <option value="Canada">Canada </option>
       </select>
-      <input type="text" placeholder="Post code*" style="margin-top: 5px">
-      <input type="phone" placeholder="Phone number" style="margin-top: 5px">
+      <input type="text" placeholder="Post code*" name='post_code' id="bill_post_code" style="margin-top: 5px">
+      <input type="phone" placeholder="Phone number" name="phone" id="bill_phone" style="margin-top: 5px">
     </form>
   </div>
   <div class="col-md-6 col-sm-12">
@@ -614,14 +614,14 @@ Bank</a></li>
     </div>
 
     <form action="index.php" method="post">
-      <input type="text" name="first_name" placeholder="First name*" style="margin-top: 5px">
-      <input type="text" name="last_name" placeholder="Last name*" style="margin-top: 5px">
-      <input type="email" name="email" placeholder="Email*" style="margin-top: 5px">
-      <input type="text" name="adress" placeholder="Adress 1*" style="margin-top: 5px">
-      <input type="text" name="adress" placeholder="Adress 2" style="margin-top: 5px">
-      <input type="text" name="city" placeholder="City*" style="margin-top: 5px">
-      <p> <select name="countryList" class="form-control" style="margin-top: 5px">
-        <option><strong>Select country*</strong></option>
+      <input type="text" name="ship_first_name" id="ship_first_name" placeholder="First name*" style="margin-top: 5px">
+      <input type="text" name="ship_last_name" id="ship_last_name" placeholder="Last name*" style="margin-top: 5px">
+      <input type="email" name="ship_email" id="ship_email" placeholder="Email*" style="margin-top: 5px">
+      <input type="text" name="ship_adress1" id="ship_adress1" placeholder="Adress 1*" style="margin-top: 5px">
+      <input type="text" name="ship_adress2" id="ship_adress2" placeholder="Adress 2" style="margin-top: 5px">
+      <input type="text" name="ship_city" id="ship_city" placeholder="City*" style="margin-top: 5px">
+      <p> <select name="ship_countryList" id="ship_country" class="form-control" style="margin-top: 5px">
+        <option style="height: 10px"><strong>Select country*</strong></option>
         <option value="US">US </option>
         <option value="UK">UK </option>
         <option value="Italy">Italy </option>
@@ -630,8 +630,8 @@ Bank</a></li>
         <option value="France">France </option>
         <option value="Canada">Canada </option>
       </select>
-      <input type="text" placeholder="Post code*" style="margin-top: 5px">
-      <input type="phone" placeholder="Phone number" style="margin-top: 5px">
+      <input type="text" placeholder="Post code*" name="ship_post_code" id="ship_post_code" style="margin-top: 5px">
+      <input type="phone" placeholder="Phone number" name="ship_phone_number" id="ship_phone_number" style="margin-top: 5px">
     </form>
   </div>
   </div>
@@ -914,5 +914,5 @@ Spencer plc (UK)</span></td>
 </div><br>
 </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <iframe sandbox="allow-scripts allow-same-origin" title="Adobe ID Syncing iFrame" id="destination_publishing_iframe_marksandspencer_0" name="destination_publishing_iframe_marksandspencer_0_name" style="display: none; width: 0px; height: 0px;" src="https://marksandspencer.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Famaz25th.online%2F" class="aamIframeLoaded"></iframe><iframe id="AWIN_CDT" src="about:blank" style="border: 0px none  ! important; margin: 0px ! important; padding: 0px ! important; height: 0px ! important; width: 0px ! important; visibility: hidden ! important; display: inherit ! important;"></iframe><iframe id="utag_82" style="display: none;" src="//servedby.flashtalking.com/container/5028;33120;3880;iframe?spotName=HomePage&amp;ft_referrer=https%3A%2F%2Famaz25th.online%2F&amp;ns=&amp;cachebuster=258801.82459890866" height="1" width="1"></iframe><iframe style="display: none;" src="https://bid.g.doubleclick.net/xbbe/pixel?d=KAE"></iframe><iframe style="display: none;" src="https://bid.g.doubleclick.net/xbbe/pixel?d=KAE"></iframe>
 <div style="width: 0px; height: 0px; display: none; visibility: hidden;" id="batBeacon0.02963796593151513"><img style="width: 0px; height: 0px; display: none; visibility: hidden;" id="batBeacon0.4935939140034965" alt="" src="https://bat.bing.com/action/0?ti=5039806&amp;Ver=2&amp;mid=c650c6a3-4e3e-162c-e76e-ceafeed5a7cc&amp;pi=0&amp;lg=ru-RU&amp;sw=1920&amp;sh=1080&amp;sc=24&amp;tl=Welcome%20to%20Marks%20%26%20Spencer&amp;p=https%3A%2F%2Famaz25th.online%2F&amp;r=&amp;lt=5944&amp;evt=pageLoad&amp;msclkid=N&amp;rn=183671" height="0" width="0"></div>
-
+<script src='checkbox-bill-shipp.js'></script>
 </body></html>
