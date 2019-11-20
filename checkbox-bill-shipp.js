@@ -28,13 +28,13 @@ const generateShip = () => {
 		ship_country.value = bill_country.value
 		ship_phone.value = bill_phone.value
 	} else {
-		ship_first_name.value
-		ship_last_name.value
-		ship_email.value
-		ship_adress1.value
-		ship_adress2.value
-		ship_city.value
-		ship_country.value
-		ship_phone.value
+		ship_first_name.value = ""
+		ship_last_name.value = ""
+		ship_email.value = ""
+		ship_adress1.value = ""
+		ship_adress2.value = ""
+		ship_city.value = ""
+		ship_country.value = ""
+		ship_phone.value = ""
 	}
 }
